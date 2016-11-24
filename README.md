@@ -8,9 +8,7 @@ Useful Capistrano Rake tasks for WordPress. Currently:
 ### Varnish
 **`varnish:clear`**
 
-Clears the varnish cache.
-
-Has support for Multiple domains (via Multisite). See [Config](https://github.com/trendwerk/capistrano-rake-tasks#config).
+Clears the varnish cache. Has support for Multiple domains (via Multisite). See [Config](https://github.com/trendwerk/capistrano-rake-tasks#config).
 
 ### Domains
 **`domains:map`**
