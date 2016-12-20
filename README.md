@@ -42,8 +42,11 @@ set :assets, fetch(:assets, []).push('assets/styles/dist')
 ```
 
 #### Automation
-To automatically upload
+To automatically build and upload assets on each deployment, you can use the `deploy:updated` hook:
+
+```ruby
 after "deploy:updated", "assets:upload"
+```
 
 
 ### Domains
