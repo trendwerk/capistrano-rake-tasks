@@ -2,14 +2,14 @@
 Useful Capistrano Rake tasks for WordPress. Currently:
 
 - `opcache:clear`
-- [`varnish:clear`](https://github.com/trendwerk/capistrano-rake-tasks#varnish)
-- [`assets:upload` and `assets:build`](https://github.com/trendwerk/capistrano-rake-tasks#assets)
-- [`domains:map`](https://github.com/trendwerk/capistrano-rake-tasks#domains)
+- [`varnish:clear`](#varnish)
+- [`assets:upload` and `assets:build`](#assets)
+- [`domains:map`](#domains)
 
 ### Varnish
 **`varnish:clear`**
 
-Clears the varnish cache. Has support for Multiple domains (via Multisite). See [Config](https://github.com/trendwerk/capistrano-rake-tasks#config).
+Clears the varnish cache. Has support for Multiple domains (via Multisite). See [Config](#config).
 
 ### Assets
 Used to build and upload front-end assets. Assumed configuration variables: `theme` and `assets`.
