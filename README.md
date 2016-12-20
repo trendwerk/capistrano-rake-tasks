@@ -25,6 +25,7 @@ Builds assets with `npm run build` in the `:theme` directory.
 #### Config (assets)
 
 **Theme**
+
 A theme directory should be set. This is used to run build the assets. For example, for [bedrock](https://github.com/trendwerk/bedrock):
 
 ```ruby
@@ -32,6 +33,7 @@ set :theme, 'web/app/themes/<my-theme>'
 ````
 
 **Asset directories**
+
 You can specify assets directories from within the theme directory. These asset folders will be uploaded after building the assets. For example:
 
 ```ruby
