@@ -22,7 +22,7 @@ Builds and uploads assets.
 
 Builds assets with `npm run build` in the `:theme` directory.
 
-#### Config
+#### Config (assets)
 
 **Theme**
 A theme directory should be set. This is used to run build the assets. For example, for [bedrock](https://github.com/trendwerk/bedrock):
@@ -49,7 +49,7 @@ after "deploy:updated", "assets:upload"
 
 Maps domains for the [WordPress MU Domain Mapping](https://nl.wordpress.org/plugins/wordpress-mu-domain-mapping/) plugin when **pulling** the database.
 
-#### Config
+#### Config (domains)
 Domains can be configured by setting the `domains` variable. For example, in `production.rb`:
 
 ```
