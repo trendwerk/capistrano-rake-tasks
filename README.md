@@ -9,10 +9,10 @@ Useful Capistrano Rake tasks for WordPress. Currently:
 ### Varnish
 **`varnish:clear`**
 
-Clears the varnish cache. Has support for Multiple domains (via Multisite). See [Config](#config).
+Clears the varnish cache. Has support for Multiple domains (via Multisite). See [Config](#config-assets).
 
 ### Assets
-Used to build and upload front-end assets. Assumed configuration variables: `theme` and `assets`.
+Used to build and upload front-end assets. Assumed [configuration variables](#config-assets): `theme` and `assets`.
 
 **`assets:upload`**
 
