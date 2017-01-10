@@ -59,7 +59,7 @@ Domains can be configured by setting the `domains` variable. For example, in `pr
 
 ```
 set :domains, {
-  'www.example.com' => 'www.example-com.dev',
-  'www.example.org' => 'www.example-org.dev',
+  'www.example.com' => 'www.example-com.localhost',
+  'www.example.org' => 'www.example-org.localhost',
 }
 ```
