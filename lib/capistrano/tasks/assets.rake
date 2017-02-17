@@ -13,7 +13,7 @@ namespace :assets do
     on roles(:web) do
       fetch(:assets).each do |directory|
         path = "#{fetch(:theme)}/#{directory}"
-        upload! path, release_path.join(path), recursive: true
+        upload! path, release_path.join(File.dirname(path)), recursive: true
       end
     end
   end
